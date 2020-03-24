@@ -1,0 +1,1 @@
+SELECT * FROM spotify.songs WHERE title LIKE '%f%';

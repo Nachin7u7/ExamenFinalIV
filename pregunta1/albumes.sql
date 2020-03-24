@@ -1,0 +1,1 @@
+SELECT * FROM spotify.albums WHERE artworkPath='assets/images/artwork/ukulele.jpg';

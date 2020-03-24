@@ -1,0 +1,1 @@
+SELECT * FROM spotify.artists WHERE id in (SELECT artist FROM spotify.songs WHERE plays = (SELECT MIN(plays) FROM spotify.songs));
